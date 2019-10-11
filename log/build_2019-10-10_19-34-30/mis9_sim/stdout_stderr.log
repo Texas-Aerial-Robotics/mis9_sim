@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/lib/ccache/cc
+-- Check for working C compiler: /usr/lib/ccache/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++
+-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.7.10 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.6 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.7.10 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tar/ros2_ws/src/mis9_sim/build/mis9_sim
+[35m[1mScanning dependencies of target cpp_code[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_code.dir/src/samplecode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cpp_code[0m
+[100%] Built target cpp_code
+[100%] Built target cpp_code
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/package_run_dependencies/mis9_sim
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/parent_prefix_path/mis9_sim
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/environment/ament_prefix_path.sh
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/environment/path.sh
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.bash
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.sh
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.zsh
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/packages/mis9_sim
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/cmake/mis9_simConfig.cmake
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/cmake/mis9_simConfig-version.cmake
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/package.xml
+-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/lib/mis9_sim/cpp_code

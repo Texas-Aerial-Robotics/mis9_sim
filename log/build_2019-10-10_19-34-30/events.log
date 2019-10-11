@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000893] (mis9_sim) JobQueued: {'identifier': 'mis9_sim', 'dependencies': OrderedDict()}
+[0.000970] (mis9_sim) JobStarted: {'identifier': 'mis9_sim'}
+[0.011583] (mis9_sim) JobProgress: {'identifier': 'mis9_sim', 'progress': 'cmake'}
+[0.012071] (mis9_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/tar/ros2_ws/src/mis9_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim'], 'cwd': '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tar'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2514'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tar/ros2_ws/src/mis9_sim/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tar'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tar/ros2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'tar'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('GAZEBO_MODEL_PATH', '/home/tar/gazebo_ws/gazebo_models::/home/tar/catkin_ws/src/mission8_sim/models'), ('USERNAME', 'tar'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tar/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/mergent:@/tmp/.ICE-unix/2417,unix/mergent:/tmp/.ICE-unix/2417'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c55c582_ccaa_4f58_8341_e6d2696dae33'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tar/ros2_ws/install/ros2_cpp_pkg:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GAZEBO_PLUGIN_PATH', '/home/tar/catkin_ws/src/mission8_sim/scripts'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tar/ros2_ws/install/ros2_cpp_pkg:/opt/ros/dashing')]), 'shell': False}
+[0.091379] (mis9_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[0.099193] (-) TimerEvent: {}
+[0.164336] (mis9_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[0.170009] (mis9_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc\n'}
+[0.199332] (-) TimerEvent: {}
+[0.285007] (mis9_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc -- works\n'}
+[0.286367] (mis9_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299458] (-) TimerEvent: {}
+[0.382348] (mis9_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.393924] (mis9_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.399659] (-) TimerEvent: {}
+[0.500170] (-) TimerEvent: {}
+[0.600749] (-) TimerEvent: {}
+[0.701262] (-) TimerEvent: {}
+[0.753385] (mis9_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.757778] (mis9_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++\n'}
+[0.801447] (-) TimerEvent: {}
+[0.883555] (mis9_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works\n'}
+[0.884778] (mis9_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901626] (-) TimerEvent: {}
+[0.987978] (mis9_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.997234] (mis9_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.001796] (-) TimerEvent: {}
+[1.102316] (-) TimerEvent: {}
+[1.202875] (-) TimerEvent: {}
+[1.303450] (-) TimerEvent: {}
+[1.404015] (-) TimerEvent: {}
+[1.504561] (-) TimerEvent: {}
+[1.565377] (mis9_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.569538] (mis9_sim) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[1.601877] (mis9_sim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") \n'}
+[1.602218] (mis9_sim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.604731] (-) TimerEvent: {}
+[1.705225] (-) TimerEvent: {}
+[1.737197] (mis9_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.761348] (mis9_sim) StdoutLine: {'line': b'-- Found rclcpp: 0.7.10 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[1.777856] (mis9_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.6 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.805388] (-) TimerEvent: {}
+[1.806504] (mis9_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.807716] (mis9_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.905619] (-) TimerEvent: {}
+[1.935118] (mis9_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.935526] (mis9_sim) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[2.005841] (-) TimerEvent: {}
+[2.059147] (mis9_sim) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[2.059558] (mis9_sim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.106073] (-) TimerEvent: {}
+[2.143833] (mis9_sim) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.144233] (mis9_sim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.206337] (-) TimerEvent: {}
+[2.236706] (mis9_sim) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.239006] (mis9_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.268606] (mis9_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.10 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[2.306573] (-) TimerEvent: {}
+[2.349881] (mis9_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[2.352879] (mis9_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.353150] (mis9_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.355926] (mis9_sim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.357335] (mis9_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.360799] (mis9_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.361469] (mis9_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.369536] (mis9_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.376380] (mis9_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.377394] (mis9_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/tar/ros2_ws/src/mis9_sim/build/mis9_sim\n'}
+[2.381629] (mis9_sim) CommandEnded: {'returncode': 0}
+[2.382988] (mis9_sim) JobProgress: {'identifier': 'mis9_sim', 'progress': 'build'}
+[2.384710] (mis9_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim', '--', '-j12', '-l12'], 'cwd': '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tar'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2514'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tar/ros2_ws/src/mis9_sim/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tar'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tar/ros2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'tar'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('GAZEBO_MODEL_PATH', '/home/tar/gazebo_ws/gazebo_models::/home/tar/catkin_ws/src/mission8_sim/models'), ('USERNAME', 'tar'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tar/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/mergent:@/tmp/.ICE-unix/2417,unix/mergent:/tmp/.ICE-unix/2417'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c55c582_ccaa_4f58_8341_e6d2696dae33'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tar/ros2_ws/install/ros2_cpp_pkg:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GAZEBO_PLUGIN_PATH', '/home/tar/catkin_ws/src/mission8_sim/scripts'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tar/ros2_ws/install/ros2_cpp_pkg:/opt/ros/dashing')]), 'shell': False}
+[2.406790] (-) TimerEvent: {}
+[2.451954] (mis9_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_code\x1b[0m\n'}
+[2.487950] (mis9_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_code.dir/src/samplecode.cpp.o\x1b[0m\n'}
+[2.506924] (-) TimerEvent: {}
+[2.607475] (-) TimerEvent: {}
+[2.708052] (-) TimerEvent: {}
+[2.808631] (-) TimerEvent: {}
+[2.909205] (-) TimerEvent: {}
+[3.009773] (-) TimerEvent: {}
+[3.110341] (-) TimerEvent: {}
+[3.210974] (-) TimerEvent: {}
+[3.311547] (-) TimerEvent: {}
+[3.412110] (-) TimerEvent: {}
+[3.512697] (-) TimerEvent: {}
+[3.583101] (mis9_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_code\x1b[0m\n'}
+[3.612918] (-) TimerEvent: {}
+[3.682479] (mis9_sim) StdoutLine: {'line': b'[100%] Built target cpp_code\n'}
+[3.700265] (mis9_sim) CommandEnded: {'returncode': 0}
+[3.713171] (-) TimerEvent: {}
+[3.735337] (mis9_sim) JobProgress: {'identifier': 'mis9_sim', 'progress': 'install'}
+[3.735880] (mis9_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim', '--target', 'install'], 'cwd': '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tar'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2514'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tar/ros2_ws/src/mis9_sim/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tar'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/tar/ros2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'tar'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('GAZEBO_MODEL_PATH', '/home/tar/gazebo_ws/gazebo_models::/home/tar/catkin_ws/src/mission8_sim/models'), ('USERNAME', 'tar'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tar/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/mergent:@/tmp/.ICE-unix/2417,unix/mergent:/tmp/.ICE-unix/2417'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c55c582_ccaa_4f58_8341_e6d2696dae33'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tar/ros2_ws/install/ros2_cpp_pkg:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GAZEBO_PLUGIN_PATH', '/home/tar/catkin_ws/src/mission8_sim/scripts'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tar/ros2_ws/install/ros2_cpp_pkg:/opt/ros/dashing')]), 'shell': False}
+[3.813406] (-) TimerEvent: {}
+[3.835415] (mis9_sim) StdoutLine: {'line': b'[100%] Built target cpp_code\n'}
+[3.871642] (mis9_sim) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[3.885763] (mis9_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.886232] (mis9_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.886698] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/package_run_dependencies/mis9_sim\n'}
+[3.904843] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/parent_prefix_path/mis9_sim\n'}
+[3.913594] (-) TimerEvent: {}
+[3.921172] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/environment/ament_prefix_path.sh\n'}
+[3.930037] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/environment/path.sh\n'}
+[3.940368] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.bash\n'}
+[3.956185] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.sh\n'}
+[3.971224] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.zsh\n'}
+[3.984362] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/packages/mis9_sim\n'}
+[3.995527] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/cmake/mis9_simConfig.cmake\n'}
+[4.005090] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/cmake/mis9_simConfig-version.cmake\n'}
+[4.013787] (-) TimerEvent: {}
+[4.021966] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/package.xml\n'}
+[4.041212] (mis9_sim) StdoutLine: {'line': b'-- Symlinking: /home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/lib/mis9_sim/cpp_code\n'}
+[4.056062] (mis9_sim) CommandEnded: {'returncode': 0}
+[4.074445] (mis9_sim) JobEnded: {'identifier': 'mis9_sim', 'rc': 0}
+[4.076499] (-) EventReactorShutdown: {}

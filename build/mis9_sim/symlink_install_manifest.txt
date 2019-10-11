@@ -1,0 +1,12 @@
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/package_run_dependencies/mis9_sim
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/parent_prefix_path/mis9_sim
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/environment/ament_prefix_path.sh
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/environment/path.sh
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.bash
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.sh
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/local_setup.zsh
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/ament_index/resource_index/packages/mis9_sim
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/cmake/mis9_simConfig.cmake
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/cmake/mis9_simConfig-version.cmake
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/share/mis9_sim/package.xml
+/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim/lib/mis9_sim/cpp_code
