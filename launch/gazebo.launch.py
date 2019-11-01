@@ -14,6 +14,8 @@
 
 """Launch Gazebo server and client with command line arguments."""
 
+
+## TODO: figure out how to launch scripts in conjunction with gazebo
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.actions import IncludeLaunchDescription

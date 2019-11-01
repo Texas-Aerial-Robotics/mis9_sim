@@ -38,7 +38,7 @@ def generate_launch_description():
     env = {'GAZEBO_MODEL_PATH': model,
            'GAZEBO_PLUGIN_PATH': plugin,
            'GAZEBO_RESOURCE_PATH': media}
-
+# To change world file, change the first declare launch argument to the world file that you want to launch
     return LaunchDescription([
         DeclareLaunchArgument('world', default_value='protosim.world',
                               description='Specify world file name'),
