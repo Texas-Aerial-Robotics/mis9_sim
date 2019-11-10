@@ -13,5 +13,5 @@ Current model path (put in bash):
 
 run 
 ```
-echo 'export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/mission8_sim/models' >> ~/.bashrc
+echo 'export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/ros2_ws/src/mis9_sim/models' >> ~/.bashrc
 ```
