@@ -1,5 +1,4 @@
 import os
-
 from ament_index_python.packages import get_package_share_directory
 from catkin_pkg.package import InvalidPackage, PACKAGE_MANIFEST_FILENAME, parse_package
 from ros2pkg.api import get_package_names

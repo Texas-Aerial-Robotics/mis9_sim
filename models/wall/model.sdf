@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+	<model name="wall">
+      <static>true</static>
+      <link name="body">
+        <collision name = 'collision'>
+          <geometry>
+            <mesh>
+              <uri>model://wall/wall.dae</uri>
+              <scale>.3048 .3048 .3048</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+            	<uri>model://wall/wall.dae</uri>
+            	<scale>.3048 .3048 .3048</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>

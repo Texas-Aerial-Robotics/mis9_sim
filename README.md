@@ -9,6 +9,9 @@ source install/setup.bash
 
 Current model path (put in bash): 
 
-export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/gazebo_ws/gazebo_models
+## Setup 
 
-Plugin path TBD
+run 
+```
+echo 'export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/mission8_sim/models' >> ~/.bashrc
+```

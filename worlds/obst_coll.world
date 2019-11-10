@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+  World file for obstacle collision testing
+-->
+<sdf version="1.6">
+  <world name="default">
+    <plugin name="gazebo_ros_properties" filename="libgazebo_ros_properties.so">
+      <ros>
+        <namespace>/demo</namespace>
+      </ros>
+    </plugin>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <model name="wall">
+      <include>
+        <uri>model://wall</uri>
+        <pose>2 0 0 0 0 0</pose> 
+      </include>
+    </model>
+
+    <model name ="lwall">
+      <include>
+        <uri>model://lwall</uri>
+        <pose>-2 0 0 0 0 0</pose>
+      </include>
+    </model>
+  </world>
+</sdf>
+
+
+
