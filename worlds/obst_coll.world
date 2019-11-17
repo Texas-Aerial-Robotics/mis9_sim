@@ -23,6 +23,14 @@
         <pose>2 0 0 0 0 0</pose> 
       </include>
     </model>
+    <model name="drone">
+      <include>
+        <uri>  model://drone</uri>
+        <pose> 0 0 0 0 0 0 </pose>
+      </include>
+    </model>
+
+
 
     <model name ="lwall">
       <include>
