@@ -15,6 +15,8 @@ FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_s
 
 DSV_TYPE_PREPEND_NON_DUPLICATE = 'prepend-non-duplicate'
 DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS = 'prepend-non-duplicate-if-exists'
+DSV_TYPE_SET = 'set'
+DSV_TYPE_SET_IF_UNSET = 'set-if-unset'
 DSV_TYPE_SOURCE = 'source'
 
 
@@ -200,11 +202,11 @@ def process_dsv_file(
         else:
             # group remaining source lines by basename
             path_without_ext, ext = os.path.splitext(remainder)
+            if path_without_ext not in basenames:
+                basenames[path_without_ext] = set()
             assert ext.startswith('.')
             ext = ext[1:]
             if ext in (primary_extension, additional_extension):
-                if path_without_ext not in basenames:
-                    basenames[path_without_ext] = set()
                 basenames[path_without_ext].add(ext)
 
     # add the dsv extension to each basename if the file exists
@@ -240,26 +242,40 @@ def process_dsv_file(
 
 def handle_dsv_types_except_source(type_, remainder, prefix):
     commands = []
-    if type_ in (
+    if type_ in (DSV_TYPE_SET, DSV_TYPE_SET_IF_UNSET):
+        env_name, value = remainder.split(';', 1)
+        try_prefixed_value = os.path.join(prefix, value) if value else prefix
+        if os.path.exists(try_prefixed_value):
+            value = try_prefixed_value
+        if type_ == DSV_TYPE_SET:
+            commands += _set(env_name, value)
+        elif type_ == DSV_TYPE_SET_IF_UNSET:
+            commands += _set_if_unset(env_name, value)
+        else:
+            assert False
+    elif type_ in (
         DSV_TYPE_PREPEND_NON_DUPLICATE,
         DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS
     ):
-        env_name, value = remainder.split(';', 1)
-        if not value:
-            value = prefix
-        elif not os.path.isabs(value):
-            value = os.path.join(prefix, value)
-        if (
-            type_ == DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS and
-            not os.path.exists(value)
-        ):
-            comment = 'skip extending {env_name} with not existing path: ' \
-                '{value}'.format_map(locals())
-            if _include_comments():
-                commands.append(
-                    FORMAT_STR_COMMENT_LINE.format_map({'comment': comment}))
-        else:
-            commands += _prepend_unique_value(env_name, value)
+        env_name_and_values = remainder.split(';')
+        env_name = env_name_and_values[0]
+        values = env_name_and_values[1:]
+        for value in values:
+            if not value:
+                value = prefix
+            elif not os.path.isabs(value):
+                value = os.path.join(prefix, value)
+            if (
+                type_ == DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS and
+                not os.path.exists(value)
+            ):
+                comment = 'skip extending {env_name} with not existing path: ' \
+                    '{value}'.format_map(locals())
+                if _include_comments():
+                    commands.append(
+                        FORMAT_STR_COMMENT_LINE.format_map({'comment': comment}))
+            else:
+                commands += _prepend_unique_value(env_name, value)
     else:
         assert False, 'Unknown environment hook type: ' + type_
     return commands
@@ -287,6 +303,23 @@ def _prepend_unique_value(name, value):
     else:
         if not _include_comments():
             return []
+        line = FORMAT_STR_COMMENT_LINE.format_map({'comment': line})
+    return [line]
+
+
+def _set(name, value):
+    global env_state
+    env_state[name] = value
+    line = FORMAT_STR_SET_ENV_VAR.format_map(
+        {'name': name, 'value': value})
+    return [line]
+
+
+def _set_if_unset(name, value):
+    global env_state
+    line = FORMAT_STR_SET_ENV_VAR.format_map(
+        {'name': name, 'value': value})
+    if env_state.get(name, os.environ.get(name)):
         line = FORMAT_STR_COMMENT_LINE.format_map({'comment': line})
     return [line]
 

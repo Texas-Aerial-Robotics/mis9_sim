@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+	<model name="commandMast">
+      <static>true</static>
+      <link name="body">
+         <pose>0 -10 0 1.5707963267 0 0</pose>
+        <collision name = 'collision'>
+          <geometry>
+            <mesh>
+              <uri>model://mast/MastAssembly - Command Mast-1.STL</uri>
+              <scale>.0025 .0025 .0025</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+            	<uri>model://mast/MastAssembly - Command Mast-1.STL</uri>
+            	<scale>.0025 .0025 .0025</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+   
+    <link name="body">
+      <collision name = 'collision'>
+        <geometry>
+          <mesh>
+            <uri>model://mast/MastAssembly - MastLights-1.STL</uri>
+            <scale>.0025 .0025 .0025</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://mast/MastAssembly - MastLights-1.STL</uri>
+            <scale>.0025 .0025 .0025</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <link name="body">
+      <collision name = 'collision'>
+        <geometry>
+          <mesh>
+            <uri>model://mast/MastAssembly - MastBlockWithRods-1.STL</uri>
+            <scale>.0025 .0025 .0025</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://mast/MastAssembly - MastBlockWithRods-1.STL</uri>
+            <scale>.0025 .0025 .0025</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+  </model>
+</sdf>

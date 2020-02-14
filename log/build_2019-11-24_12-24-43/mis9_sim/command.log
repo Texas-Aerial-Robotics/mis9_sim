@@ -1,0 +1,2 @@
+Invoking command in '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/tar/ros2_ws/src/mis9_sim -DCMAKE_INSTALL_PREFIX=/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim
+Invoked command in '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/tar/ros2_ws/src/mis9_sim -DCMAKE_INSTALL_PREFIX=/home/tar/ros2_ws/src/mis9_sim/install/mis9_sim

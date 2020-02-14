@@ -1,0 +1,67 @@
+[0.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff60cc4a2e8>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff60cc4a2e8>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff60cc4a5f8>)
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.180s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tar/ros2_ws/src/mis9_sim/launch'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/__pycache__) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tar/ros2_ws/src/mis9_sim/launch/log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.195s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.195s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.196s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.202s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.206s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.236s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tar/ros2_ws/src/mis9_sim/launch/install/local_setup.ps1'
+[0.237s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tar/ros2_ws/src/mis9_sim/launch/install/_local_setup_util_ps1.py'
+[0.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tar/ros2_ws/src/mis9_sim/launch/install/setup.ps1'
+[0.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tar/ros2_ws/src/mis9_sim/launch/install/local_setup.sh'
+[0.242s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tar/ros2_ws/src/mis9_sim/launch/install/_local_setup_util_sh.py'
+[0.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tar/ros2_ws/src/mis9_sim/launch/install/setup.sh'
+[0.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tar/ros2_ws/src/mis9_sim/launch/install/local_setup.bash'
+[0.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tar/ros2_ws/src/mis9_sim/launch/install/setup.bash'
+[0.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tar/ros2_ws/src/mis9_sim/launch/install/local_setup.zsh'
+[0.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tar/ros2_ws/src/mis9_sim/launch/install/setup.zsh'

@@ -4,11 +4,7 @@
 -->
 <sdf version="1.6">
   <world name="default">
-    <plugin name="gazebo_ros_properties" filename="libgazebo_ros_properties.so">
-      <ros>
-        <namespace>/demo</namespace>
-      </ros>
-    </plugin>
+    
     <include>
       <uri>model://ground_plane</uri>
     </include>
@@ -23,19 +19,27 @@
         <pose>2 0 0 0 0 0</pose> 
       </include>
     </model>
-    <model name="drone">
+    <model name="drone2">
       <include>
-        <uri>  model://drone</uri>
+        <uri>  model://drone2</uri>
         <pose> 0 0 0 0 0 0 </pose>
       </include>
     </model>
-
-
-
     <model name ="lwall">
       <include>
         <uri>model://lwall</uri>
         <pose>-2 0 0 0 0 0</pose>
+      </include>
+    </model>
+    <model name = "mast">
+      <include>
+        <uri> model://mast</uri>
+        <pose> 4 0 0 1.55 0 0</pose>
+      </include>
+    </model>
+    <model name = "commsmod">
+      <include>
+        <uri> model://commsmod</uri>
       </include>
     </model>
   </world>
