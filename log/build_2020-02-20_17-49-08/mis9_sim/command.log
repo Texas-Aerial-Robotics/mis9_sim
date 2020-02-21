@@ -1,0 +1,4 @@
+Invoking command in '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tar/ros2_ws/src/mis9_sim/build/mis9_sim -- -j12 -l12
+Invoked command in '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tar/ros2_ws/src/mis9_sim/build/mis9_sim -- -j12 -l12
+Invoking command in '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tar/ros2_ws/src/mis9_sim/build/mis9_sim --target install -- -j12 -l12
+Invoked command in '/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tar/ros2_ws/src/mis9_sim/build/mis9_sim --target install -- -j12 -l12

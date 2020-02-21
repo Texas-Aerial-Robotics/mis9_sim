@@ -310,5 +310,38 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/opt/ros/dashing/lib/python3.6/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/mis9_sim/environment")
-ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/opt/ros/dashing/lib/python3.6/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/mis9_sim/environment")
+# install(FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mis9_sim" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mis9_sim" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mis9_sim" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mis9_sim" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mis9_sim/environment")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mis9_sim/environment")
+
+# install(FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mis9_sim/environment")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/opt/ros/dashing/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mis9_sim/environment")
+
+# install(FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mis9_sim")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mis9_sim")
+
+# install(FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mis9_sim")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mis9_sim")
+
+# install(FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mis9_sim")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mis9_sim")
+
+# install(FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_index/share/ament_index/resource_index/packages/mis9_sim" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_index/share/ament_index/resource_index/packages/mis9_sim" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_core/mis9_simConfig.cmake" "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_core/mis9_simConfig-version.cmake" "DESTINATION" "share/mis9_sim/cmake")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_core/mis9_simConfig.cmake" "/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_core/mis9_simConfig-version.cmake" "DESTINATION" "share/mis9_sim/cmake")
+
+# install(FILES "/home/tar/ros2_ws/src/mis9_sim/package.xml" "DESTINATION" "share/mis9_sim")
+ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/tar/ros2_ws/src/mis9_sim/package.xml" "DESTINATION" "share/mis9_sim")
+
+# install("TARGETS" "cpp_code" "DESTINATION" "lib/mis9_sim")
+include("/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "launch" "DESTINATION" "share/mis9_sim/")
+ament_cmake_symlink_install_directory("/home/tar/ros2_ws/src/mis9_sim" DIRECTORY "launch" "DESTINATION" "share/mis9_sim/")

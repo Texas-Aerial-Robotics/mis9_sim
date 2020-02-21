@@ -19,30 +19,36 @@
         <pose>2 0 0 0 0 0</pose> 
       </include>
     </model>
-    <model name="drone2">
+
+    <model name="drone">
       <include>
-        <uri>  model://drone2</uri>
+        <uri>  model://drone_new</uri>
         <pose> 0 0 0 0 0 0 </pose>
       </include>
     </model>
+
     <model name ="lwall">
       <include>
         <uri>model://lwall</uri>
         <pose>-2 0 0 0 0 0</pose>
       </include>
     </model>
+
     <model name = "mast">
       <include>
         <uri> model://mast</uri>
         <pose> 4 0 0 1.55 0 0</pose>
       </include>
     </model>
+
     <model name = "commsmod">
       <include>
         <uri> model://commsmod</uri>
       </include>
     </model>
   </world>
+
+  
 </sdf>
 
 
