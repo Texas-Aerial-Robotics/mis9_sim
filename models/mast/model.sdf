@@ -3,7 +3,7 @@
 	<model name="commandMast">
       <static>true</static>
       <link name="body">
-         <pose>0 -10 0 1.5707963267 0 0</pose>
+         <pose>0 0 0 1.5707963267 0 0</pose>
         <collision name = 'collision'>
           <geometry>
             <mesh>
