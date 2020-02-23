@@ -3,12 +3,11 @@
 	<model name="commandMast">
       <static>true</static>
       <link name="body">
-         <pose>0 0 0 1.5707963267 0 0</pose>
         <collision name = 'collision'>
           <geometry>
             <mesh>
               <uri>model://mast/MastAssembly - Command Mast-1.STL</uri>
-              <scale>.0025 .0025 .0025</scale>
+              <scale>.0008 .0008 .0008</scale>
             </mesh>
           </geometry>
         </collision>
@@ -16,7 +15,7 @@
           <geometry>
             <mesh>
             	<uri>model://mast/MastAssembly - Command Mast-1.STL</uri>
-            	<scale>.0025 .0025 .0025</scale>
+            	<scale>.0008 .0008 .0008</scale>
             </mesh>
           </geometry>
         </visual>
@@ -27,7 +26,7 @@
         <geometry>
           <mesh>
             <uri>model://mast/MastAssembly - MastLights-1.STL</uri>
-            <scale>.0025 .0025 .0025</scale>
+            <scale>.0008 .0008 .0008</scale>
           </mesh>
         </geometry>
       </collision>
@@ -35,7 +34,7 @@
         <geometry>
           <mesh>
             <uri>model://mast/MastAssembly - MastLights-1.STL</uri>
-            <scale>.0025 .0025 .0025</scale>
+            <scale>.0008 .0008 .0008</scale>
           </mesh>
         </geometry>
       </visual>
@@ -45,7 +44,7 @@
         <geometry>
           <mesh>
             <uri>model://mast/MastAssembly - MastBlockWithRods-1.STL</uri>
-            <scale>.0025 .0025 .0025</scale>
+            <scale>.0008 .0008 .0008</scale>
           </mesh>
         </geometry>
       </collision>
@@ -53,7 +52,7 @@
         <geometry>
           <mesh>
             <uri>model://mast/MastAssembly - MastBlockWithRods-1.STL</uri>
-            <scale>.0025 .0025 .0025</scale>
+            <scale>.0008 .0008 .0008</scale>
           </mesh>
         </geometry>
       </visual>

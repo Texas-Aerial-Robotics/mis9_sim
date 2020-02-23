@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+  World file for mission 9 sim
+-->
+<sdf version="1.6">
+  <world name="mission9">
+    
+    <plugin name="gazebo_ros_properties" filename="libgazebo_ros_properties.so">
+      <ros>
+         <namespace>/demo</namespace>
+      </ros>
+    </plugin>
+
+    <model name="drone">
+      <include>
+        <uri>  model://drone_new</uri>
+        <pose> 0 0 0 0 0 0 </pose>
+      </include>
+    </model>
+
+    <model name = "mast">
+      <include>
+        <uri> model://mast</uri>
+        <pose> 4 0 0 1.55 0 0</pose>
+      </include>
+    </model>
+
+    <model name = "commsmod">
+      <include>
+        <uri> model://commsmod</uri>
+        <pose> -2 0 0 -1.670796 0.735 -0.39 </pose>
+      </include>
+    </model>
+  </world>
+
+  
+</sdf>
+
+
+
