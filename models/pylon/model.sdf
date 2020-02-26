@@ -1,21 +1,22 @@
 <?xml version='1.0'?>
 <sdf version="1.6">
-	<model name="commsmod">
-
-      <static>true</static> <!--set this to false for sim-->
+  <model name="pylon">
+      <pose> 0 0 0 0 1.5707963267 0 </pose>
+      <static>true</static> 
       <link name="body">
-        <!--pose frame="commandMast">10 0 0 0 0 0</pose-->
         <collision name = 'collision'>
           <geometry>
             <mesh>
-              <uri>model://commsmod/commsmod.dae</uri>
+              <uri>model://pylon/pylon.STL</uri>
+              <scale> 0.0005 0.0005 0.0005</scale>
             </mesh>
           </geometry>
         </collision>
         <visual name="visual">
           <geometry>
             <mesh>
-            	<uri>model://commsmod/commsmod.dae</uri>
+              <uri>model://pylon/pylon.STL</uri>
+              <scale> 0.0005 0.0005 0.0005</scale>
             </mesh>
           </geometry>
         </visual>

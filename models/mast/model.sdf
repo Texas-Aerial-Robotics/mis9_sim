@@ -2,31 +2,41 @@
 <sdf version="1.6">
 	<model name="commandMast">
       <static>true</static>
+      <!--link name="color">
+        <visual name="color">
+          <material>
+            <script>
+              <uri>model://mast/mastColor.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link-->
+
       <link name="body">
         <collision name = 'collision'>
           <geometry>
             <mesh>
-              <uri>model://mast/MastAssembly - Command Mast-1.STL</uri>
-              <scale>.0008 .0008 .0008</scale>
+              <uri>model://mast/COMMANDMAST - COMMANDMAST-1.STL</uri>
+              <scale> 0.001  0.001  0.001</scale>
             </mesh>
           </geometry>
         </collision>
         <visual name="visual">
           <geometry>
             <mesh>
-            	<uri>model://mast/MastAssembly - Command Mast-1.STL</uri>
-            	<scale>.0008 .0008 .0008</scale>
+            	<uri>model://mast/COMMANDMAST - COMMANDMAST-1.STL</uri>
+            	<scale> 0.001  0.001  0.001</scale>
             </mesh>
           </geometry>
         </visual>
       </link>
    
-    <link name="body">
+    <!--link name="body">
       <collision name = 'collision'>
         <geometry>
           <mesh>
             <uri>model://mast/MastAssembly - MastLights-1.STL</uri>
-            <scale>.0008 .0008 .0008</scale>
+            <scale> 0.001  0.001  0.001</scale>
           </mesh>
         </geometry>
       </collision>
@@ -34,25 +44,25 @@
         <geometry>
           <mesh>
             <uri>model://mast/MastAssembly - MastLights-1.STL</uri>
-            <scale>.0008 .0008 .0008</scale>
+            <scale> 0.001  0.001  0.001</scale>
           </mesh>
         </geometry>
       </visual>
-    </link>
+    </link-->
     <link name="body">
       <collision name = 'collision'>
         <geometry>
           <mesh>
-            <uri>model://mast/MastAssembly - MastBlockWithRods-1.STL</uri>
-            <scale>.0008 .0008 .0008</scale>
+            <uri>model://mast/COMMANDMAST - MastBlockWithRods-1.STL</uri>
+            <scale> 0.001  0.001  0.001</scale>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://mast/MastAssembly - MastBlockWithRods-1.STL</uri>
-            <scale>.0008 .0008 .0008</scale>
+            <uri>model://mast/COMMANDMAST - MastBlockWithRods-1.STL</uri>
+            <scale> 0.001  0.001  0.001</scale>
           </mesh>
         </geometry>
       </visual>
