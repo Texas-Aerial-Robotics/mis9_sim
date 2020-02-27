@@ -48,7 +48,7 @@
     <model name = "mast">
       <include>
         <uri> model://mast</uri>
-        <pose> 0.65 -1.8 0 1.5708 0 3.14159</pose>
+        <pose> 1 -0.5 0 1.5708 0 3.14159</pose>
       </include>
     </model>
 

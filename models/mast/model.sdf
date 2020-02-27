@@ -2,17 +2,24 @@
 <sdf version="1.6">
 	<model name="commandMast">
       <static>true</static>
-      <!--link name="color">
-        <visual name="color">
-          <material>
-            <script>
-              <uri>model://mast/mastColor.dae</uri>
-            </script>
-          </material>
-        </visual>
-      </link-->
-
+      
       <link name="body">
+        <collision name = 'collision'>
+          <geometry>
+            <mesh>
+              <uri>model://mast/mast.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>model://mast/mast.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <!--link name="body">
         <collision name = 'collision'>
           <geometry>
             <mesh>
@@ -31,24 +38,7 @@
         </visual>
       </link>
    
-    <!--link name="body">
-      <collision name = 'collision'>
-        <geometry>
-          <mesh>
-            <uri>model://mast/MastAssembly - MastLights-1.STL</uri>
-            <scale> 0.001  0.001  0.001</scale>
-          </mesh>
-        </geometry>
-      </collision>
-      <visual name="visual">
-        <geometry>
-          <mesh>
-            <uri>model://mast/MastAssembly - MastLights-1.STL</uri>
-            <scale> 0.001  0.001  0.001</scale>
-          </mesh>
-        </geometry>
-      </visual>
-    </link-->
+    
     <link name="body">
       <collision name = 'collision'>
         <geometry>
@@ -66,6 +56,6 @@
           </mesh>
         </geometry>
       </visual>
-    </link> 
+    </link--> 
   </model>
 </sdf>
