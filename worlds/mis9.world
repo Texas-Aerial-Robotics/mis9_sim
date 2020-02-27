@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!--
+  World file for mission 9 sim
+-->
+<sdf version="1.6">
+  <world name="mission9">
+    <light type="point" name="point_light">
+      <pose>5 5 5 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>.1 .1 .1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <linear>0.2</linear>
+        <constant>0.8</constant>
+        <quadratic>0.01</quadratic>
+      </attenuation>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+
+    <plugin name="gazebo_ros_properties" filename="libgazebo_ros_properties.so">
+      <ros>
+         <namespace>/demo</namespace>
+      </ros>
+    </plugin>
+
+    <model name="drone">
+      <include>
+        <uri>  model://drone_new</uri>
+        <pose> 0 10 0 0 0 0 </pose>
+      </include>
+    </model>
+
+    <model name="pylonClose">
+      <include>
+        <uri>  model://pylon</uri>
+        <pose> 8.6602540378 5 0 1.5708 0 0</pose>
+      </include>
+    </model>
+
+    <model name="pylonFar">
+      <include>
+        <uri>  model://pylon</uri>
+        <pose> 410.99625403 5 0 1.5708 0 0</pose>
+      </include>
+    </model>
+
+    <model name = "mast">
+      <include>
+        <uri> model://mast</uri>
+        <pose> 1 -0.5 0 1.5708 0 3.14159</pose>
+      </include>
+    </model>
+
+    <model name = "commsmod">
+      <include>
+        <uri> model://commsmod</uri>
+        <pose frame="mast"> 3.6814 -0.564779 3.821353 1.715449 0.381536 -2.378329 </pose>
+      </include>
+    </model>
+  </world>
+
+  
+</sdf>
+
+
+
