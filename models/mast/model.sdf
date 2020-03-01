@@ -2,22 +2,31 @@
 <sdf version="1.6">
 	<model name="commandMast">
       <static>true</static>
-      
       <link name="body">
         <collision name = 'collision'>
           <geometry>
             <mesh>
-              <uri>model://mast/mast.dae</uri>
+              <uri>model://mast/thing.dae</uri>
+              <scale> 1.0  1.0  1.0  </scale>              
             </mesh>
           </geometry>
         </collision>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>model://mast/mast.dae</uri>
+              <uri>model://mast/thing.dae</uri>
+              <scale> 1.0  1.0  1.0  </scale>
             </mesh>
           </geometry>
+          <material>
+            <script>
+              <uri>model://mast/materials/scripts</uri>
+              <uri>model://mast/materials/textures</uri>
+              <name>Beer/Diffuse</name>
+            </script>
+          </material>
         </visual>
+        <!--light name="red_light" type="spot"/-->
       </link>
       <!--link name="body">
         <collision name = 'collision'>
@@ -36,10 +45,9 @@
             </mesh>
           </geometry>
         </visual>
-      </link>
+      </link-->
    
-    
-    <link name="body">
+    <!--link name="mastBlock">
       <collision name = 'collision'>
         <geometry>
           <mesh>
@@ -57,5 +65,14 @@
         </geometry>
       </visual>
     </link--> 
+    <!--plugin name="navLights" filename="libFlashLightPlugin.so">
+      <light>
+        <enable>true</enable>
+        <id>body/red_light</id>
+        <duration>10</duration>
+        <interval>0</interval>
+        <color>1 0 0</color>
+      </light>
+    </plugin-->
   </model>
 </sdf>
