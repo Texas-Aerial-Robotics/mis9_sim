@@ -8,16 +8,23 @@
         <collision name = 'collision'>
           <geometry>
             <mesh>
-              <uri>model://commsmod/comm.obj</uri>
+              <uri>model://commsmod/commsmod.dae</uri>
             </mesh>
           </geometry>
         </collision>
         <visual name="visual">
           <geometry>
             <mesh>
-            	<uri>model://commsmod/comm.obj</uri>
+            	<uri>model://commsmod/commsmod.dae</uri>
             </mesh>
           </geometry>
+		<material>
+            <script>
+              <uri>model://commsmod/materials/scripts</uri>
+              <uri>model://commsmod/materials/textures</uri>
+              <name>raccoon/Diffuse</name>
+            </script>
+          	</material>
         </visual>
       </link>
   </model>

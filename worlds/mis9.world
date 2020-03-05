@@ -50,7 +50,7 @@
     <model name = "commsmod">
       <include>
         <uri> model://commsmod</uri>
-        <pose frame="mast"> 5 0 0 0 0 0 </pose>
+        <pose frame="mast"> 0 0 0 0 0 0 </pose>
       </include>
     </model>
   </world>
