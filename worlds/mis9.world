@@ -19,6 +19,8 @@
       <uri>model://sun</uri>
     </include>
 
+
+
     <model name="drone">
       <include>
         <uri>  model://drone_new</uri>
@@ -43,14 +45,14 @@
     <model name = "mast">
       <include>
         <uri> model://mast</uri>
-        <pose> 0 0 0.5 0 0 0</pose>
+        <pose> 0 0 0 0 0 0</pose>
       </include>
     </model>
 
     <model name = "commsmod">
       <include>
         <uri> model://commsmod</uri>
-        <pose frame="mast"> 0 0 0 0 0 0 </pose>
+        <pose frame="mast"> -0.023308 0.3958 1.314046 0 1.534 0 </pose>
       </include>
     </model>
   </world>

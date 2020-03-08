@@ -2,7 +2,7 @@
 <sdf version="1.6">
 	<model name="commsmod">
 
-      <static>true</static> <!--set this to false for sim-->
+      <static>false</static> <!--set this to false for sim-->
       <link name="body">
         <!--pose frame="commandMast">10 0 0 0 0 0</pose-->
         <collision name = 'collision'>
