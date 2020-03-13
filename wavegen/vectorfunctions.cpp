@@ -6,7 +6,7 @@
 
 void printVect (std::vector<double> in) {
     for (double i : in) {
-        std::cout << i << ", ";
+        std::cout << i << "\n";
     }
     std::cout << "\n";
 }
