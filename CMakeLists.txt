@@ -34,7 +34,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-ament_package()
+
 
 
 add_executable(cpp_code src/samplecode.cpp)
@@ -50,3 +50,5 @@ install(DIRECTORY
   launch
   DESTINATION share/${PROJECT_NAME}/
 )
+
+ament_package()
