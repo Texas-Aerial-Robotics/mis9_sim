@@ -342,3 +342,6 @@ ament_cmake_symlink_install_files("/home/tar/ros2_ws/src/mis9_sim" FILES "/home/
 
 # install("TARGETS" "cpp_code" "DESTINATION" "lib/mis9_sim")
 include("/home/tar/ros2_ws/src/mis9_sim/build/mis9_sim/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "launch" "DESTINATION" "share/mis9_sim/")
+ament_cmake_symlink_install_directory("/home/tar/ros2_ws/src/mis9_sim" DIRECTORY "launch" "DESTINATION" "share/mis9_sim/")

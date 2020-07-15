@@ -1,0 +1,15 @@
+material raccoon/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Untitled.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

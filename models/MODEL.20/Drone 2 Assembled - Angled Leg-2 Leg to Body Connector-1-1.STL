@@ -1,0 +1,86 @@
+solid Drone 2 Assembled - Angled Leg-2 Leg to Body Connector-1-1
+   facet normal 6.982963e-15 0.000000e+00 1.000000e+00
+      outer loop
+         vertex 1.216227e+01 8.705688e+00 1.147336e+01
+         vertex 1.166227e+01 8.705688e+00 1.147336e+01
+         vertex 1.216227e+01 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal 6.982963e-15 0.000000e+00 1.000000e+00
+      outer loop
+         vertex 1.166227e+01 8.705688e+00 1.147336e+01
+         vertex 1.166227e+01 8.655688e+00 1.147336e+01
+         vertex 1.216227e+01 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal 1.000000e+00 0.000000e+00 -6.982963e-15
+      outer loop
+         vertex 1.216227e+01 8.655688e+00 1.097336e+01
+         vertex 1.216227e+01 8.705688e+00 1.147336e+01
+         vertex 1.216227e+01 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal -0.000000e+00 -1.000000e+00 0.000000e+00
+      outer loop
+         vertex 1.166227e+01 8.655688e+00 1.147336e+01
+         vertex 1.216227e+01 8.655688e+00 1.097336e+01
+         vertex 1.216227e+01 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal -1.000000e+00 0.000000e+00 6.982963e-15
+      outer loop
+         vertex 1.166227e+01 8.705688e+00 1.147336e+01
+         vertex 1.166227e+01 8.705688e+00 1.097336e+01
+         vertex 1.166227e+01 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal -1.000000e+00 0.000000e+00 6.982963e-15
+      outer loop
+         vertex 1.166227e+01 8.705688e+00 1.097336e+01
+         vertex 1.166227e+01 8.655688e+00 1.097336e+01
+         vertex 1.166227e+01 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal 0.000000e+00 -1.000000e+00 0.000000e+00
+      outer loop
+         vertex 1.166227e+01 8.655688e+00 1.097336e+01
+         vertex 1.216227e+01 8.655688e+00 1.097336e+01
+         vertex 1.166227e+01 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal 1.000000e+00 -0.000000e+00 -6.982963e-15
+      outer loop
+         vertex 1.216227e+01 8.705688e+00 1.097336e+01
+         vertex 1.216227e+01 8.705688e+00 1.147336e+01
+         vertex 1.216227e+01 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal -6.982963e-15 0.000000e+00 -1.000000e+00
+      outer loop
+         vertex 1.166227e+01 8.655688e+00 1.097336e+01
+         vertex 1.216227e+01 8.705688e+00 1.097336e+01
+         vertex 1.216227e+01 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal -6.982963e-15 0.000000e+00 -1.000000e+00
+      outer loop
+         vertex 1.166227e+01 8.705688e+00 1.097336e+01
+         vertex 1.216227e+01 8.705688e+00 1.097336e+01
+         vertex 1.166227e+01 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal 0.000000e+00 1.000000e+00 0.000000e+00
+      outer loop
+         vertex 1.216227e+01 8.705688e+00 1.097336e+01
+         vertex 1.166227e+01 8.705688e+00 1.097336e+01
+         vertex 1.216227e+01 8.705688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal 0.000000e+00 1.000000e+00 0.000000e+00
+      outer loop
+         vertex 1.166227e+01 8.705688e+00 1.097336e+01
+         vertex 1.166227e+01 8.705688e+00 1.147336e+01
+         vertex 1.216227e+01 8.705688e+00 1.147336e+01
+      endloop
+   endfacet
+endsolid

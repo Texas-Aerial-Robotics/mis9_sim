@@ -1,0 +1,86 @@
+solid Drone 2 Assembled - Angled Leg-1 Leg to Body Connector-1-1
+   facet normal 0.000000e+00 0.000000e+00 -1.000000e+00
+      outer loop
+         vertex 4.662269e+00 8.705688e+00 1.097336e+01
+         vertex 5.162269e+00 8.705688e+00 1.097336e+01
+         vertex 4.662269e+00 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal 0.000000e+00 -0.000000e+00 -1.000000e+00
+      outer loop
+         vertex 5.162269e+00 8.705688e+00 1.097336e+01
+         vertex 5.162269e+00 8.655688e+00 1.097336e+01
+         vertex 4.662269e+00 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal -1.000000e+00 0.000000e+00 0.000000e+00
+      outer loop
+         vertex 4.662269e+00 8.655688e+00 1.147336e+01
+         vertex 4.662269e+00 8.705688e+00 1.097336e+01
+         vertex 4.662269e+00 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal 0.000000e+00 -1.000000e+00 0.000000e+00
+      outer loop
+         vertex 5.162269e+00 8.655688e+00 1.097336e+01
+         vertex 4.662269e+00 8.655688e+00 1.147336e+01
+         vertex 4.662269e+00 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal 1.000000e+00 0.000000e+00 -0.000000e+00
+      outer loop
+         vertex 5.162269e+00 8.705688e+00 1.097336e+01
+         vertex 5.162269e+00 8.705688e+00 1.147336e+01
+         vertex 5.162269e+00 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal 1.000000e+00 0.000000e+00 0.000000e+00
+      outer loop
+         vertex 5.162269e+00 8.705688e+00 1.147336e+01
+         vertex 5.162269e+00 8.655688e+00 1.147336e+01
+         vertex 5.162269e+00 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal -0.000000e+00 -1.000000e+00 -0.000000e+00
+      outer loop
+         vertex 5.162269e+00 8.655688e+00 1.147336e+01
+         vertex 4.662269e+00 8.655688e+00 1.147336e+01
+         vertex 5.162269e+00 8.655688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal -1.000000e+00 -0.000000e+00 -0.000000e+00
+      outer loop
+         vertex 4.662269e+00 8.705688e+00 1.147336e+01
+         vertex 4.662269e+00 8.705688e+00 1.097336e+01
+         vertex 4.662269e+00 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal 0.000000e+00 0.000000e+00 1.000000e+00
+      outer loop
+         vertex 5.162269e+00 8.655688e+00 1.147336e+01
+         vertex 4.662269e+00 8.705688e+00 1.147336e+01
+         vertex 4.662269e+00 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal 0.000000e+00 0.000000e+00 1.000000e+00
+      outer loop
+         vertex 5.162269e+00 8.705688e+00 1.147336e+01
+         vertex 4.662269e+00 8.705688e+00 1.147336e+01
+         vertex 5.162269e+00 8.655688e+00 1.147336e+01
+      endloop
+   endfacet
+   facet normal -0.000000e+00 1.000000e+00 0.000000e+00
+      outer loop
+         vertex 4.662269e+00 8.705688e+00 1.147336e+01
+         vertex 5.162269e+00 8.705688e+00 1.147336e+01
+         vertex 4.662269e+00 8.705688e+00 1.097336e+01
+      endloop
+   endfacet
+   facet normal 0.000000e+00 1.000000e+00 0.000000e+00
+      outer loop
+         vertex 5.162269e+00 8.705688e+00 1.147336e+01
+         vertex 5.162269e+00 8.705688e+00 1.097336e+01
+         vertex 4.662269e+00 8.705688e+00 1.097336e+01
+      endloop
+   endfacet
+endsolid

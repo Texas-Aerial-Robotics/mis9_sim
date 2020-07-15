@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+	<model name="drone_new">
+      <static>true</static>
+      <link name="body">
+        <collision name = 'collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drone_new/drone_new.dae</uri>
+              <scale>.3048 .3048 .3048</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+            	<uri>model://drone_new/drone_new.dae</uri>
+            	<scale>.3048 .3048 .3048</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+</sdf>

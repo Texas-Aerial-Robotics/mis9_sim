@@ -17,13 +17,11 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(
-  rclcpp
-  rclpy
-  std_msgs
-  gazebo_ros
-  message_generation
-  REQUIRED)
+find_package( rclcpp REQUIRED)
+find_package( rclpy REQUIRED)
+find_package( std_msgs REQUIRED)
+  find_package(gazebo_ros REQUIRED)
+#  find_package(message_generation REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
