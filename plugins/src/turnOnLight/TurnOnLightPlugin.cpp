@@ -63,8 +63,8 @@ namespace gazebo
       if (_msg.data())
       {
         gzmsg << "Turning on light\n";
-        redLightMsg.set_range(15.0);
-        greenLightMsg.set_range(15.0);
+        redLightMsg.set_range(0.5);
+        greenLightMsg.set_range(0.5);
       }
       else
       {
