@@ -62,11 +62,11 @@
                     </cylinder>
                 </geometry>
                 <material>
-                    <script>
-                        <name>Gazebo/GreenTransparent</name>
-                        <uri>file://media/materials/scripts/gazebo.material</uri>
-                    </script>
+                    <ambient>0 1 0 1</ambient>
+                    <diffuse>0 1 0 1</diffuse>
+                    <emissive>0 1 0 1</emissive>
                 </material>
+                <plugin name="changeGreenTop" filename="libChangeGreenLightVisual.so"/>
             </visual>
             <visual name="greenLightTop">
                 <pose>0.53 -0.04 1.82</pose>
@@ -76,11 +76,11 @@
                     </sphere>
                 </geometry>
                 <material>
-                    <script>
-                        <name>Gazebo/GreenTransparent</name>
-                        <uri>file://media/materials/scripts/gazebo.material</uri>
-                    </script>
+                    <ambient>0 1 0 1</ambient>
+                    <diffuse>0 1 0 1</diffuse>
+                    <emissive>0 1 0 1</emissive>
                 </material>
+                <plugin name="changeGreenBase" filename="libChangeGreenLightVisual.so"/>
             </visual>
             <collision name="greenLightBase">
                 <pose>0.53 -0.04 1.805</pose>
@@ -108,13 +108,13 @@
                     </cylinder>
                 </geometry>
                 <material>
-                    <script>
-                        <name>Gazebo/RedTransparent</name>
-                        <uri>file://media/materials/scripts/gazebo.material</uri>
-                    </script>
+                    <ambient>1 0 0 1</ambient>
+                    <diffuse>1 0 0 1</diffuse>
+                    <emissive>1 0 0 1</emissive>
                 </material>
+                <plugin name="changeRedBase" filename="libChangeRedLightVisual.so"/>
             </visual>
-            <visual name="redLight">
+            <visual name="redLightTop">
                 <pose>-0.53 -0.04 1.82</pose>
                 <geometry>
                     <sphere>
@@ -122,11 +122,11 @@
                     </sphere>
                 </geometry>
                 <material>
-                    <script>
-                        <name>Gazebo/RedTransparent</name>
-                        <uri>file://media/materials/scripts/gazebo.material</uri>
-                    </script>
+                    <ambient>1 0 0 1</ambient>
+                    <diffuse>1 0 0 1</diffuse>
+                    <emissive>1 0 0 1</emissive>
                 </material>
+                <plugin name="changeRedTop" filename="libChangeRedLightVisual.so"/>
             </visual>
             <collision name="redLightBase">
                 <pose>-0.53 -0.04 1.805</pose>
@@ -137,7 +137,7 @@
                     </cylinder>
                 </geometry>
             </collision>
-            <collision name="redLight">
+            <collision name="redLightTop">
                 <pose>-0.53 -0.04 1.82</pose>
                 <geometry>
                     <sphere>
