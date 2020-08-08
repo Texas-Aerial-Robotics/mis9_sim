@@ -1,12 +1,13 @@
 <?xml version='1.0'?>
 <sdf version="1.6">
     <model name="mast">
-        <static>true</static>
+        <static>false</static>
         <link name="body">
+            <pose>0 0 0.3</pose>
             <collision name="collision">
                 <geometry>
                     <mesh>
-                        <uri>model://mast/mast.dae</uri>
+                        <uri>model://mast/mastNoBar.dae</uri>
                         <scale>1.0  1.0  1.0  </scale>
                     </mesh>
                 </geometry>
@@ -14,7 +15,7 @@
             <visual name="visual">
                 <geometry>
                     <mesh>
-                        <uri>model://mast/mast.dae</uri>
+                        <uri>model://mast/mastNoBar.dae</uri>
                         <scale>1.0  1.0  1.0  </scale>
                     </mesh>
                 </geometry>
@@ -25,32 +26,6 @@
                         <name>Beer/Diffuse</name>
                     </script>
                 </material>
-            </visual>
-            <collision name="sphere">
-                <pose>0 0.05 0 0 0 0</pose>
-                <geometry>
-                    <sphere>
-                        <radius>.3</radius>
-                    </sphere>
-                </geometry>
-                <surface>
-                    <friction>
-                        <ode>
-                            <mu>0</mu>
-                            <mu2>0</mu2>
-                            <slip1>1.0</slip1>
-                            <slip2>1.0</slip2>
-                        </ode>
-                    </friction>
-                </surface>
-            </collision>
-            <visual name="sphere">
-                <pose>0 0.05 0 0 0 0</pose>
-                <geometry>
-                    <sphere>
-                        <radius>.3</radius>
-                    </sphere>
-                </geometry>
             </visual>
             <!-- *************Nav Light Visuals/collisions**************** -->
             <visual name="greenLightBase">
@@ -66,7 +41,7 @@
                     <diffuse>0 1 0 1</diffuse>
                     <emissive>0 1 0 1</emissive>
                 </material>
-                <plugin name="changeGreenTop" filename="libChangeGreenLightVisual.so"/>
+                <plugin filename="libChangeGreenLightVisual.so" name="changeGreenTop"/>
             </visual>
             <visual name="greenLightTop">
                 <pose>0.53 -0.04 1.82</pose>
@@ -80,7 +55,7 @@
                     <diffuse>0 1 0 1</diffuse>
                     <emissive>0 1 0 1</emissive>
                 </material>
-                <plugin name="changeGreenBase" filename="libChangeGreenLightVisual.so"/>
+                <plugin filename="libChangeGreenLightVisual.so" name="changeGreenBase"/>
             </visual>
             <collision name="greenLightBase">
                 <pose>0.53 -0.04 1.805</pose>
@@ -112,7 +87,7 @@
                     <diffuse>1 0 0 1</diffuse>
                     <emissive>1 0 0 1</emissive>
                 </material>
-                <plugin name="changeRedBase" filename="libChangeRedLightVisual.so"/>
+                <plugin filename="libChangeRedLightVisual.so" name="changeRedBase"/>
             </visual>
             <visual name="redLightTop">
                 <pose>-0.53 -0.04 1.82</pose>
@@ -126,7 +101,7 @@
                     <diffuse>1 0 0 1</diffuse>
                     <emissive>1 0 0 1</emissive>
                 </material>
-                <plugin name="changeRedTop" filename="libChangeRedLightVisual.so"/>
+                <plugin filename="libChangeRedLightVisual.so" name="changeRedTop"/>
             </visual>
             <collision name="redLightBase">
                 <pose>-0.53 -0.04 1.805</pose>
@@ -164,6 +139,148 @@
                 <diffuse>1 0 0 1</diffuse>
                 <pose>-0.53 -0.04 1.82</pose>
             </light>
+            <inertial>
+                <mass>50</mass>
+                <inertia>
+                    <ixx>0</ixx>
+                    <iyy>0.110208333*50*4</iyy>
+                    <izz>0.110208333*50*4</izz>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyz>0</iyz>
+                </inertia>
+            </inertial>
         </link>
+        <link name="topBar">
+            <pose>0 0.0327 2.44</pose>
+            <visual name="spinningBar">
+                <geometry>
+                    <box>
+                        <size>1.15 0.025 0.05</size>
+                    </box>
+                </geometry>
+            </visual>
+            <collision name="spinningBar">
+                <geometry>
+                    <box>
+                        <size>1.15 0.025 0.05</size>
+                    </box>
+                </geometry>
+            </collision>
+            <inertial>
+                <mass>1</mass>
+                <inertia>
+                    <ixx>0</ixx>
+                    <iyy>0.110208333</iyy>
+                    <izz>0.110208333</izz>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyz>0</iyz>
+                </inertia>
+            </inertial>
+        </link>
+        <!-- <model name="base"><static>true</static>-->
+        <link name="sphereBase">
+            <pose>0 0 0.3</pose>
+            <collision name="sphere">
+                <geometry>
+                    <sphere>
+                        <radius>.3</radius>
+                    </sphere>
+                </geometry>
+                <surface>
+                    <friction>
+                        <ode>
+                            <mu>0</mu>
+                            <mu2>0</mu2>
+                            <slip1>1.0</slip1>
+                            <slip2>1.0</slip2>
+                        </ode>
+                    </friction>
+                </surface>
+                <pose>0 0 0.1</pose>
+            </collision>
+            <visual name="sphere">
+                <geometry>
+                    <sphere>
+                        <radius>.3</radius>
+                    </sphere>
+                </geometry>
+                <pose>0 0 0.1</pose>
+            </visual>
+        </link>
+        <link name="base">
+            <pose>0 0 0.05</pose>
+            <visual name="base">
+                <geometry>
+                    <box>
+                        <size>0.8 0.8 0.1</size>
+                    </box>
+                </geometry>
+            </visual>
+            <collision name="base">
+                <geometry>
+                    <box>
+                        <size>0.8 0.8 0.1</size>
+                    </box>
+                </geometry>
+            </collision>
+            <inertial>
+                <mass>1000</mass>
+            </inertial>
+        </link>
+        <!--   </model>-->
+        <joint name="sphereBody" type="prismatic">
+            <parent>sphereBase</parent>
+            <child>body</child>
+            <axis>
+                <xyz>0 0 1</xyz>
+                <use_parent_model_frame>true</use_parent_model_frame>
+                <limit>
+                    <lower>0</lower>
+                    <upper>0.2</upper>
+                </limit>
+            </axis>
+        </joint>
+        <joint name="barSpin" type="revolute">
+            <parent>body</parent>
+            <child>topBar</child>
+            <axis>
+                <xyz>0 0 1</xyz>
+                <use_parent_model_frame>true</use_parent_model_frame>
+            </axis>
+            <physics>
+                <ode>
+                    <velocity>10.0</velocity>
+                </ode>
+            </physics>
+        </joint>
+        <!--         <joint name="mastRotation1" type="revolute"><parent>base</parent><child>body</child><axis><xyz>1 0 0</xyz><limit><lower>-0.5</lower><upper>0.5</upper></limit></axis></joint>-->
+        <joint name="mastRotation" type="universal">
+            <parent>base</parent>
+            <child>sphereBase</child>
+            <axis>
+                <xyz>0 1 0</xyz>
+                <limit>
+                    <lower>-0.5</lower>
+                    <upper>0.5</upper>
+                </limit>
+                <use_parent_model_frame>true</use_parent_model_frame>
+                <dynamics>
+                    <friction>2</friction>
+                </dynamics>
+            </axis>
+            <axis2>
+                <xyz>1 0 0</xyz>
+                <limit>
+                    <lower>-0.5</lower>
+                    <upper>0.5</upper>
+                </limit>
+                <use_parent_model_frame>true</use_parent_model_frame>
+                <dynamics>
+                   <friction>2</friction>
+                </dynamics>
+            </axis2>
+        </joint>
     </model>
 </sdf>

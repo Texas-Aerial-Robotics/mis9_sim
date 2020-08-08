@@ -39,13 +39,13 @@
         </include>
         <include>
             <uri>model://commsmod</uri>
-            <pose>-0.024071 0.394814 1.314902 0.030133 1.540649 0.031802 </pose>
+            <pose>-0.024071 0.394814 1.614713 0.030133 1.540649 0.031802 </pose>
         </include>
         <plugin filename="libContainPlugin.so" name="ContainPlugin">
             <enabled>true</enabled>
             <entity>commsmod::body</entity>
             <namespace>mis9</namespace>
-            <pose>-0.023308 0.3958 1.314046 0 0 0</pose>
+            <pose frame="mast">-0.024071 0.394814 1.614713 0 0 0 </pose>
             <geometry>
                 <box>
                     <size>0.1 0.1 0.1</size>
