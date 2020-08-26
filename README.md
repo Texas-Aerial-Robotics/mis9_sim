@@ -3,11 +3,11 @@
 This repository contains ROS 2 and Gazebo files for building TAR's Mission 9 Sim.
 
 ## Table of Contents
-* [File and Directory Descriptions](#file-directory-descriptions)
+* [File and Directory Descriptions](#file-and-directory-descriptions)
 * [Dependencies](#dependencies)
 * [Setup - Create a ROS 2 workspace](#setup---create-a-ros-2-workspace)
 * [Building the ROS 2 packages](#building-the-ros-2-packages)
-* [Gazebo stuff idk yet](#gazebo-stuff-idk-yet)
+* [Using Gazebo](#using-gazebo)
 
 ## File and Directory Descriptions
 ```
@@ -91,7 +91,7 @@ ros2 run <package_name> <executable_name>
 ```
 [More details for nerds.](https://index.ros.org/doc/ros2/Tutorials/Writing-A-Simple-Cpp-Publisher-And-Subscriber/)
 
-## Gazebo 
+## Using Gazebo 
 Run the following command to allow Gazebo to find the sim's models.
 ```
 echo 'export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/ros2_ws/src/mis9_sim/models' >> ~/.bashrc
