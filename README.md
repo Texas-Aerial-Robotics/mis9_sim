@@ -18,6 +18,11 @@ mis9_sim
 │   ├── drone_new - Model data for our drone
 │   ├── mast - Model data for mast
 │   └── pylon - Model data for pylon markers
+├── plugins - Gazebo/ROS Plugins for sim
+│   ├── libChangeGreenLightVisual.so - Toggles the green light's material when lit/unlit
+│   ├── libChangeRedLightVisual.so - Same as above for red light
+│   ├── libTurnOnLightPlugin.so - Toggles the nav lights
+│   └── src - Source code for plugins
 ├── scripts - Gazebo set up scripts
 ├── src - Source code for ROS nodes
 ├── wavegen - idk ask Matt
@@ -86,8 +91,9 @@ ros2 run <package_name> <executable_name>
 ```
 [More details for nerds.](https://index.ros.org/doc/ros2/Tutorials/Writing-A-Simple-Cpp-Publisher-And-Subscriber/)
 
-## Gazebo stuff idk yet
-run
+## Gazebo 
+Run the following command to allow Gazebo to find the sim's models.
 ```
 echo 'export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/ros2_ws/src/mis9_sim/models' >> ~/.bashrc
 ```
+Now you can run the simulation with the command `gazebo worlds/mis9.world`
